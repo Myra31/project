@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid__container {
+    display: grid;
+    grid-template-columns: 10cm 5cm 5cm 5cm 5cm;
+    background-color:#58B19F;
+    grid-gap: 5px;
+}
+
+.grid__item {
+    margin-top: 5px;
+    background-color:#58B19F;
+    border-radius: 10px;
+    width: 10vw;
+   }
+
+.post__title{
+    font-size: 25px;
+    color: white;
+    margin: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+    .read__more {
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    border: 2px solid white;
+    background: #58B19F;
+    border-radius: 17px;
+    padding: 8px;
+    width: 12vw;
+
+   }
